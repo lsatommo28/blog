@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Grid</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="E:\Photography\WhatsApp Image 2023-09-08 at 22.38.47.jpg" style="width:100%">
+  <img src="E:\Photography\WhatsApp Image 2023-09-08 at 22.40.57.jpg" style="width:100%">
+  <img src="E:\Photography\WhatsApp Image 2023-09-08 at 22.39.56.jpg" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="E:\Photography\WhatsApp Image 2023-09-08 at 22.41.30.jpg" style="width:100%">
+  <img src="E:\Photography\WhatsApp Image 2023-09-08 at 22.41.48.jpg" style="width:100%">
+  <img src="E:\Photography\WhatsApp Image 2023-09-08 at 22.42.09.jpg" style="width:100%">
+  </div>
+
+</body>
+</html>
